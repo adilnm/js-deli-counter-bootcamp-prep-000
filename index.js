@@ -21,10 +21,10 @@ function currentLine(line)
   return "The line is currently empty."
   else
   {
-    newArr=[];
+    var newArr=[];
     for(var i=0;i<line.length;i++)
     {
-      newArr.push(` ${i+1}. ${line[i]},`)
+    newArr.push(` ${i+1}. ${line[i]},`)
     }
     return `The line is currently:${newArr}`
   }
