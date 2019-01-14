@@ -18,7 +18,7 @@ function nowServing(currentLine)
 function currentLine(current)
 {
   if(current.length===0)
-  return 
+  return "The line is currently empty."
 }
 
 
