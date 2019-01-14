@@ -15,9 +15,10 @@ function nowServing(currentLine)
   return (`Currently serving ${currentLine.shift()}.`)
 }
 
-function currentLine(currentLine)
+function currentLine(current)
 {
-  
+  if(current.length===0)
+  return 
 }
 
 
