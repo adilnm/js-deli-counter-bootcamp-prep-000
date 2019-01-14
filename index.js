@@ -27,6 +27,6 @@ function currentLine(line)
 
 
 
-var adil=[]
+var adil=["ad","er","wf"]
 console.log(nowServing(adil))
 console.log(adil)
