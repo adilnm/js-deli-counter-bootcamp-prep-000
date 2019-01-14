@@ -24,7 +24,7 @@ function currentLine(line)
     var newArr=[];
     for(var i=0;i<line.length;i++)
     {
-    newArr.push(` ${i+1}. ${line[i]},`)
+    newArr.push(` ${i+1}. ${line[i]}`)
     }
     return `The line is currently:${newArr}`
   }
